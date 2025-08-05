@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #0A2136;       /* Pexip Blue Zodiac */
+  --color-primary-dark: #081a2d;  /* ~20% darker */
+  --color-bg: #F5F7FA;            /* light gray background */
+  --color-card: #FFFFFF;          /* pure white cards */
+}
+
+/* Utility classes */
+.bg-app      { background-color: var(--color-bg); }
+.text-main   { color: var(--color-primary); }
+.bg-primary  { background-color: var(--color-primary); }
+.bg-primary-dark { background-color: var(--color-primary-dark); }
+.bg-card     { background-color: var(--color-card); }

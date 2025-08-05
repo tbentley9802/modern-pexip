@@ -1,0 +1,5 @@
+"homepage": "https://tbentley9802.github.io/modern-pexip",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy":   "gh-pages -d build"
+}
